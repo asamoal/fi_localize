@@ -4,10 +4,10 @@
 # noinspection PyStatementEffect
 {
     "name": "Finnish Invoice",
-    "version": "13.0.1.0.0",
-    "author": "Avoin.Systems",
+    "version": "14.0.0.0.0",
+    "author": "Avoin.Systems, Data Mavens Limited",
     "category": "Localization",
-    "website": "https://avoin.systems",
+    "website": "https://wwww.datamavens.io",
     "license": "AGPL-3",
     "images": ["static/description/icon.png"],
     "depends": [
@@ -18,7 +18,7 @@
         "views/account_move_templates.xml",
         "data/report_paperformat_data.xml",  # Only after the template
     ],
-    "summary": "Suomalainen laskupohja",
+    "summary": "Suomalainen laskupohja - Updated for Odoo v14",
     "active": False,
     "installable": True,
     "auto_install": False,
