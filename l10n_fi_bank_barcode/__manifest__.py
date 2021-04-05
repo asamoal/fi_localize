@@ -20,7 +20,7 @@
 ##############################################################################
 {
     "name": "Finnish Bank Barcode",
-    "version": "13.0.1.1.0",
+    "version": "14.0.0.0.0",
     "license": "AGPL-3",
     "category": "Accounting",
     "description": """
@@ -31,9 +31,11 @@ This module only adds the barcode on the invoice form, given that
 - the payment reference is set, and it's either the Finnish payment reference or the Finnish creditor payment reference
 - the due date is set
 - the bank account is set.
+
+- Upgraded to support Odoo v14 changes by Data Mavens Limited
 """,
-    "author": "Avoin.Systems",
-    "website": "https://avoin.systems",
+    "author": "Avoin.Systems, Data Mavens Limited",
+    "website": "https://wwww.datamavens.io",
 
     "depends": [
         "account",
