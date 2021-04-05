@@ -1,10 +1,10 @@
 # See LICENSE for licensing information
 {
     "name": "Finnish Invoice Delivery Date",
-    "version": "13.0.1.0.0",
-    "author": "Avoin.Systems",
+    "version": "14.0.0.0.0",
+    "author": "Avoin.Systems, Data Mavens Limited",
     "category": "Localization",
-    "website": "https://avoin.systems",
+    "website": "https://wwww.datamavens.io",
     "license": "AGPL-3",
     "depends": [
         "account",
