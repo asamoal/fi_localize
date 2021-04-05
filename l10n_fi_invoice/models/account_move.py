@@ -18,7 +18,7 @@ class AccountMove(models.Model):
     def _get_invoice_pdf_filename(self):
         type_string = 'Invoice'
         invoice_numbers = self.name or ''
-        if self.type in ('in_refund', 'out_refund'):
+        if self.move_type in ('in_refund', 'out_refund'):
             type_string = 'Credit_Note'
         filename = '-'.join((
             type_string,
